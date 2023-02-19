@@ -13,4 +13,4 @@ data = x["Reservations"][0]
 data_instance = data["Instances"]
 
 for i in range(len(data_instance)):
-    print(data_instance[i])
+    print(f"Instance Id is {data_instance[i]['InstanceId']}")
